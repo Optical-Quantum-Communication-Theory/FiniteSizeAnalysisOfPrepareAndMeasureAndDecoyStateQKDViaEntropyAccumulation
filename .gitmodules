@@ -1,0 +1,3 @@
+[submodule "openQKDsecurity"]
+	path = openQKDsecurity
+	url = https://github.com/Optical-Quantum-Communication-Theory/openQKDsecurity.git
