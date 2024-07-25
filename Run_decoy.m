@@ -33,7 +33,7 @@ uniqueAcc = false;
 %% run the plot
 
 %Store empty matrix of key rates
-KeyRate = zeros(N_list,numel(eta_List));
+KeyRate = zeros(numel(N_list),numel(eta_List));
 
 for indexSignal = 1:numel(N_list)
     for indexEta = 1:numel(eta_List)
