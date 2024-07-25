@@ -3,7 +3,7 @@
 This is a public version of the code used in *Finite-size analysis of prepare-and-measure and decoy-state QKD via entropy accumulation* [arxiv link](https://arxiv.org/abs/2406.10198). This code was designed during the early stages of the [Open QKD Security package](https://github.com/Optical-Quantum-Communication-Theory/openQKDsecurity) version 2 rewrite. As such, we provide it here as a standalone vesion, separate from the main repository. A small number of required functions from the main repository are included.
 
 We bundled all required functions together in this version of the code. To recreate the plots in the paper for realistic acceptance sets run the files `Run_qubit.m` for the qubit and `Run_decoy.m` for the decoy-state results. 
-Additionally, for unique acceptance, one can run the same files and simply change the 'uniqueAcc' parameter to 'true'.
+Additionally, for unique acceptance, run the same files and simply change the 'uniqueAcc' parameter to 'uniqueAcc = true'.
 
 Finally, to create results for single data points one can run the file `TestRun_Qubit_and_Decoy.m`.
 
