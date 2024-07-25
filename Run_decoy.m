@@ -27,6 +27,9 @@ n_photon = 10;
 %List of Exponent of number of signals sent, i.e. n = 10^(n_signals)
 N_list = [7,8,10,12];
 
+%Choose between unique acceptance and realistic acceptance sets
+uniqueAcc = false;
+
 %% run the plot
 
 %Store empty matrix of key rates
@@ -41,7 +44,11 @@ for indexSignal = 1:numel(N_list)
         [optdeltacomp_decoy, optkeydecoy] = DecoyBB84_keyrate_EAT(eta, f_EC, misalignment, n_signals, epsilon_sec,decoy_intens,decoy_probs,n_photon);
         %store result in matrix. Each row corresponds to one value of
         %n_signal
-        KeyRate(indexSignal,indexEta) = optkeydecoy;
+        if uniqueAcc == true
+            KeyRate(indexSignal,indexEta) = optkeydecoy + optdeltacomp_decoy;
+        else
+            KeyRate(indexSignal,indexEta) = optkeydecoy;
+        end
     end
 end
 
