@@ -1,0 +1,67 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Finite-size analysis of prepare-and-measure and
+  decoy-state QKD via entropy accumulation - GitHub
+  Repository
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lars
+    family-names: Kamin
+    email: lars.kamin@outlook.com
+    affiliation: >-
+      Institute for Quantum Computing and Department of
+      Physics and Astronomy, University of Waterloo,
+      Waterloo, Ontario N2L 3G1, Canada
+    orcid: 'https://orcid.org/0000-0003-1912-3775'
+  - orcid: 'https://orcid.org/0000-0002-7078-9399'
+    given-names: Amir
+    family-names: Arqand
+    email: aarqand@uwaterloo.ca
+    affiliation: >-
+      Institute for Quantum Computing and Department of
+      Physics and Astronomy, University of Waterloo,
+      Waterloo, Ontario N2L 3G1, Canada
+  - given-names: Ian
+    family-names: George
+    orcid: 'https://orcid.org/0000-0002-2803-2421'
+    email: igeorge3@illinois.edu
+    affiliation: >-
+      Department of Electrical and Computer Engineering,
+      Coordinated Science Laboratory, University of Illinois
+      at Urbana-Champaign, Urbana, Illinois 61801, USA
+  - orcid: 'https://orcid.org/0000-0002-4897-3376'
+    given-names: Norbert
+    family-names: Lütkenhaus
+    email: lutkenhaus.office@uwaterloo.ca
+    affiliation: >-
+      Institute for Quantum Computing and Department of
+      Physics and Astronomy, University of Waterloo,
+      Waterloo, Ontario N2L 3G1, Canada
+  - email: yzetan@uwaterloo.ca
+    given-names: Ernest Y.-Z.
+    family-names: Tan
+    affiliation: >-
+      Institute for Quantum Computing and Department of
+      Physics and Astronomy, University of Waterloo,
+      Waterloo, Ontario N2L 3G1, Canada
+    orcid: 'https://orcid.org/0000-0003-4872-158X'
+identifiers:
+  - type: other
+    value: 10.1103/PRXQuantum.6.020342
+    description: PRX Quantum Publication
+repository-code: >-
+  https://github.com/Optical-Quantum-Communication-Theory/FiniteSizeAnalysisOfPrepareAndMeasureAndDecoyStateQKDViaEntropyAccumulation
+abstract: >-
+  This is a public version of the code used in "Finite-size
+  analysis of prepare-and-measure and decoy-state QKD via
+  entropy accumulation". This code was designed during the
+  early stages of the Open QKD Security package v2 rewrite
+  and as such is provided as a standalone version.
+license: MIT
+date-released: '2024-07-25'
